@@ -1,3 +1,9 @@
+{{
+  config(
+    materialized='table'
+  )
+}}
+
 {% set payment_methods = ["bank_transfer", "credit_card", "gift_card"] %}
 
 select
