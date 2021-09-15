@@ -4,7 +4,7 @@
   )
 }}
 
-{%- set payment_methods = ["bank_transfer", "credit_card", "gift_card"] -%}
+{%- set payment_methods = get_payment_methods() -%}
 
 select
 order_id,
